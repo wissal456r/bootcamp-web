@@ -1,0 +1,1 @@
+<!doctype html><form id="f"><input name="email" type="email" required><button>Check</button></form><script>f.onsubmit=e=>{e.preventDefault();fetch("task02.php",{method:"POST",body:new FormData(f)}).then(r=>alert(r.ok?"Email is valid":"Email is invalid"))};</script>

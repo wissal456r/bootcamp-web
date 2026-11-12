@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.blue {
+    background-color: #67B3DD;
+}
+
+.green {
+    background-color: #9EE062;
+}
+
+.yellow {
+    background-color: #FEDF6B;
+}
+
+.purple {
+    background-color: #6B2683;
+}
+
+.pink {
+    background-color: #F03DB5;
+}
+
+.red {
+    background-color: #FC302D;
+}
+
+header {
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+article {
+    padding: 20px;
+    width: calc(50% - 5px);
+}
+
+article:nth-child(n+5) {
+    display: none;
+}
+
+footer {
+    padding: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .articles {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    article {
+        width: calc(50% - 5px);
+    }
+
+    article:nth-child(n+5) {
+        display: none;
+    }
+
+}

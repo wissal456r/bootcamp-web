@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CodingPedia</title>
+    <link rel="stylesheet" href="codingpedia.css">
+</head>
+<body>
+
+<header class="box">
+    <h1>CodingPedia</h1>
+
+    <nav class="box">
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="php.html">PHP</a></li>
+            <li><a href="sql.html">SQL</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="box">
+
+    <article>
+        <h2>Welcome to CodingPedia</h2>
+        <p>This website is about programming.</p>
+    </article>
+
+    <article>
+        <h2>Course planning</h2>
+
+        <table border="1">
+            <caption>Course planning</caption>
+
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Description</th>
+                    <th>Grade obtained</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>PHP 101</td>
+                    <td>Introduction to PHP</td>
+                    <td>15</td>
+                </tr>
+
+                <tr>
+                    <td>OOP in PHP</td>
+                    <td>Object-oriented programming in PHP</td>
+                    <td>-</td>
+                </tr>
+
+                <tr>
+                    <td>SQL 101</td>
+                    <td>Quick introduction to SQL</td>
+                    <td>18</td>
+                </tr>
+
+                <tr>
+                    <td>SQL JOIN</td>
+                    <td>Introduction to SQL joins</td>
+                    <td>13</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <article>
+        <h2>Contact form</h2>
+
+        <form>
+            <label for="first-name">First name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+            <br><br>
+
+            <label for="last-name">Last name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="3" max="99" required>
+            <br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" minlength="10" maxlength="10" required>
+            <br><br>
+
+            <label>Sex:</label>
+            <input type="radio" id="male" name="sex" value="male" checked>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="hair-color">Hair color:</label>
+            <input type="color" id="hair-color" name="hair-color">
+            <br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+
+            <label for="technology">Technology:</label>
+            <select id="technology" name="technology">
+                <option value="php">PHP</option>
+                <option value="sql">SQL</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+            </select>
+            <br><br>
+
+            <label for="question">Your question:</label>
+            <textarea id="question" name="question" required></textarea>
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </article>
+
+</main>
+
+<aside class="box">
+    <h2>About me</h2>
+    <p>My name is Wissal. I am a student.</p>
+</aside>
+
+<footer class="box">
+    <address>
+        Aboulkheri Wissal<br>
+        6 bis rue Louis Armand<br>
+        Asnières-sur-Seine<br>
+        Phone: +33 7 43 94 18 62
+    </address>
+</footer>
+
+</body>
+</html>

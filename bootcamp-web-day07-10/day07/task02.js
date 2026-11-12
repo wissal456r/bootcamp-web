@@ -1,0 +1,1 @@
+document.querySelector('section')?.addEventListener('click',e=>{let n='';while(!n.trim())n=prompt("What's your name?")||'';if(confirm('Are you sure that name is your name ?')){alert('Hello '+n+'!');e.currentTarget.textContent='Hello '+n+'!'}});

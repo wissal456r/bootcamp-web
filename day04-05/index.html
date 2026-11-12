@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wissal Aboulkheri | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo" href="#home">WA.</a>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <p class="eyebrow">HELLO, I'M</p>
+                <h1>Wissal Aboulkheri</h1>
+                <h2>Junior Web Developer</h2>
+
+                <p class="intro">
+                    I enjoy creating simple, beautiful and
+                    responsive websites.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button" href="#projects">View my work</a>
+                    <a href="#contact">Contact me</a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="avatar">WA</div>
+
+                <p class="card-label">CURRENTLY LEARNING</p>
+                <h3>HTML - CSS - JavaScript</h3>
+                <p>Curious mind. Creative builder.</p>
+                <p>Available for opportunities</p>
+            </div>
+
+        </section>
+        <section class="section" id="about">
+            <p class="eyebrow">01 / ABOUT</p>
+            <h2>A little about me</h2>
+
+            <p class="section-copy">
+                I am a web development student.
+                I enjoy learning HTML, CSS and JavaScript.
+                My goal is to create responsive and user-friendly websites.
+            </p>
+        </section>
+        <section class="section" id="skills">
+            <p class="eyebrow">02 / SKILLS</p>
+            <h2>My Skills</h2>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Responsive Design</span>
+                <span>Git</span>
+                <span>VS Code</span>
+            </div>
+        </section>
+        <section class="section" id="projects">
+            <p class="eyebrow">03 / PROJECTS</p>
+            <h2>My Projects</h2>
+
+            <div class="project-grid">
+
+                <article class="project">
+                    <h3>Project 01</h3>
+                    <h4>Online Resume</h4>
+                    <p>
+                        A personal portfolio created using
+                        HTML, CSS and JavaScript.
+                    </p>
+                    <p>HTML - CSS - JavaScript</p>
+                </article>
+
+                <article class="project">
+                    <h3>Project 02</h3>
+                    <h4>Coming Soon</h4>
+                    <p>
+                        I will add more projects as I continue learning.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+        <section class="section contact-section" id="contact">
+            <p class="eyebrow">04 / CONTACT</p>
+            <h2>Contact Me</h2>
+
+            <p class="section-copy">
+                Feel free to send me a message.
+            </p>
+
+            <form onsubmit="sendMessage(); return false;">
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button class="button" type="submit">
+                    Send Message
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Wissal Aboulkheri</p>
+        <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

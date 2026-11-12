@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #67B3DD;
+    padding: 20px;
+}
+
+section {
+    background-color: #9EE062;
+    padding: 20px;
+    margin: 10px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+article {
+    background-color: #FEDF6B;
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    background-color: #FC302D;
+    padding: 20px;
+    margin: 10px;
+}

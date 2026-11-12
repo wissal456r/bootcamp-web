@@ -1,0 +1,1 @@
+let size=16;document.querySelectorAll('button').forEach(b=>{if(b.textContent.trim()==='+')b.onclick=()=>document.body.style.fontSize=(++size)+'px';if(b.textContent.trim()==='-')b.onclick=()=>document.body.style.fontSize=(--size)+'px'});document.querySelector('select')?.addEventListener('change',e=>document.body.style.backgroundColor=e.target.value);

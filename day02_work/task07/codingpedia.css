@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+}
+
+.box {
+    border: 2px solid black;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+header nav {
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+main {
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+}
+

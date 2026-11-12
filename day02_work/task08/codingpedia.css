@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+}
+
+.box {
+    border: 2px solid black;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+header nav {
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+main {
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+}
+
+.moving_square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: move_square 5s 5;
+}
+
+@keyframes move_square {
+    0% {
+        background-color: red;
+        transform: translate(0, 0);
+    }
+
+    25% {
+        background-color: green;
+        transform: translate(0, 300px);
+    }
+
+    50% {
+        background-color: blue;
+        transform: translate(300px, 300px);
+    }
+
+    75% {
+        background-color: yellow;
+        transform: translate(300px, 0);
+    }
+
+    100% {
+        background-color: red;
+        transform: translate(0, 0);
+    }
+}
+
+

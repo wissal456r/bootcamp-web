@@ -1,0 +1,1 @@
+let i=document.querySelector('#listItem'),b=document.querySelector('button');b?.addEventListener('click',()=>{if(i){let d=document.createElement('div');d.textContent=i.value;i.insertAdjacentElement('afterend',d);i.value=''}});
